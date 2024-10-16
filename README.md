@@ -1,11 +1,11 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# Jhett Carr
+## [Assignment #6]
+## [Submission date: 10/16/2024]
 ## Worked with/sources 
-* example
-* example
-* example
-* example
+* Jay Trujillo
+* GeeksforGeeks
+* Stackoverflow
+* Online Python
 ## Project Quirks/ Things that don't work
 * example
 * example
