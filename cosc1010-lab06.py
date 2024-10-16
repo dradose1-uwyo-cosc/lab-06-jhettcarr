@@ -85,6 +85,7 @@ print(len(random_string)) # Print out the size for reference
 #Will need to first declare a dictionary 
 
 # Output: each letter and its corresponding occurrence in alphabetical order
+print("Each letter and it's occurrence:")
 characters = {}
 for i in random_string:
     if i in characters:
