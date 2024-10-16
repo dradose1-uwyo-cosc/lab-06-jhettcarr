@@ -86,9 +86,13 @@ print(len(random_string)) # Print out the size for reference
 
 # Output: each letter and its corresponding occurrence in alphabetical order
 characters = {}
-characters = random_string
-c = sorted(characters)
-print(c)
+for i in random_string:
+    if i in characters:
+            characters[i] += 1
+    else:
+            characters[i] = 1
+for i, count in sorted(characters.items()):
+    print(f"{i}: {count}")
 print("*"*75)
 # Output which letter occurred the most 
 most_occured = {}
